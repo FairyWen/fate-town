@@ -1,0 +1,68 @@
+{
+  "pages": [{
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTitleText": "今日推荐"
+      }
+    },
+    {
+      "path": "pages/info/info",
+      "style": {
+        "navigationBarTitleText": "个人资料",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/chat/chat",
+      "style": {
+        "navigationBarTitleText": "消息",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "缘分小镇",
+    "navigationBarBackgroundColor": "#FF6347",
+    "backgroundColor": "#F8F8F8",
+    "app-plus": {
+      "background": "#efeff4"
+    }
+  },
+  "tabBar": {
+    //tab 上的文字选中时的颜色  
+    "selectedColor": "#FF6347",
+    "color": "#979797",
+    "list": [{
+        "pagePath": "pages/home/home",
+        "text": "今日推荐",
+        "iconPath": "static/tab_icons/home.png",
+        "selectedIconPath": "static/tab_icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "text": "个人资料",
+        "iconPath": "static/tab_icons/info.png",
+        "selectedIconPath": "static/tab_icons/info-active.png"
+      }, {
+        "pagePath": "pages/chat/chat",
+        "text": "消息",
+        "iconPath": "static/tab_icons/chat.png",
+        "selectedIconPath": "static/tab_icons/chat-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/tab_icons/my.png",
+        "selectedIconPath": "static/tab_icons/my-active.png"
+      }
+    ]
+  }
+}
